@@ -364,20 +364,6 @@ body {
     transform: translateY(-30px);
 }
 
-@-moz-document url-prefix() { 
-    .contact__form .inputbox span {
-        position: absolute;
-        left: 0;
-        padding: 5px 0;
-        font-size: 1.3rem;
-        margin: 10px 0;
-        pointer-events: 0.5s;
-        color: #666;
-        font-size: 1rem;
-        transform: translateY(-30px);
-    }
-}
-
 /* Send Button */
 #sendbutton {
     width: 100px;
