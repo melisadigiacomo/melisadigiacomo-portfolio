@@ -332,6 +332,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .contact__form .inputbox {
