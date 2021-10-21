@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-touch-icon.png">
+    <link rel="icon" type="images/ico/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+    <link rel="icon" type="images/ico/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <link rel="manifest" href="images/ico/site.webmanifest">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <title>Contact</title>
+</head>
+
+<body id="contact__body">
+    <!-- Navbar -->
+    <nav class="nav container nav__stickycolor">
+        <h2 class="nav__logo">Melisa Di Giacomo</h2>
+
+        <figure class="nav__menu" id="hamburger1">
+            <i class="fas fa-bars" class="nav__icon"></i>
+        </figure>
+
+        <ul class="nav__list" id="nav-ul">
+            <li class="nav__item"><a href="index.html" class="nav__link1">Home</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link1">About</a></li>
+            <li class="nav__item"><a href="projects.html" class="nav__link1">Projects</a></li>
+            <li class="nav__item"><a href="contact.html" class="nav__link1 contactbutton1 active1">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="contact">
+
+        <header class="contact__title">
+            <h2>Contact me</h2>
+        </header>
+
+        
+        <article class="container1">
+            
+            <div class="contact__form">
+                <form action="https://formspree.io/f/xgerbwgy" method="POST" id="form" name="form">
+                    <h2>Let's get in touch</h2>
+                    <div class="inputbox">                        
+                        <input type="text" name="name" id='fullname' required> <!--required oninvalid="this.setCustomValidity('Enter full name')"-->
+                        <span>Full name</span>
+                    </div>
+
+                    <div class="inputbox">                        
+                        <input type="email" name="_replyto" name="email" id='email' required>
+                        <span>Email</span>
+                    </div>
+
+                    <div class="inputbox">                        
+                        <textarea name="message" id='message' required></textarea>
+                        <span>Message...</span>
+                    </div>
+
+                    <!--Honeypot for bots-->
+                    <input name="honeypot" style="visibility: hidden;" tabindex="-1" autocomplete="off">
+
+                    <div class="button">
+                        <input class="inputbox" id="sendbutton" type="submit" value="Send" onclick="ValidateEmail(document.form.email); sendForm();">
+                    </div>
+
+                </form>
+
+                <!--Error tags-->
+                <div id="error"></div>
+                <div id="mailerror"></div>
+
+                <!--Mail sent-->
+                <div id="mailsent"></div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <footer class="footer">
+        <p>Melisa Di Giacomo © |</p>
+        <a href="https://www.linkedin.com/in/melisa-di-giacomo/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="footer__icon"></a>
+        <a href="https://github.com/melisadigiacomo" target="_blank"><img src="images/github.png" alt="github" class="footer__icon"></a>
+        <a href="https://twitter.com/melisadigiacomo" target="_blank"><img src="images/twitter.png" alt="twitter" class="footer__icon"></a>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

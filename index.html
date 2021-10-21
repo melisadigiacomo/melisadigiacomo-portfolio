@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-touch-icon.png">
+    <link rel="icon" type="images/ico/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+    <link rel="icon" type="images/ico/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <link rel="manifest" href="images/ico/site.webmanifest">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="nav container nav__sticky">
+        <h2 class="nav__logo">Melisa Di Giacomo</h2>
+
+        <figure class="nav__menu" id="hamburger">
+            <i class="fas fa-bars" class="nav__icon"></i>
+        </figure>
+
+        <ul class="nav__list" id="nav-ul">
+            <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="contact.html" class="nav__link contactbutton">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Home -->
+    <section class="home">
+        <article class="home__main container">
+            <div class="home__texts">
+                <h1 class="home__title">Hello everyone! My name is Melisa</h1>
+                <p class="home__subtitle">I'm a Web Dev apprentice and a Data Viz lover! I have a biological
+                    background: I have a Master in Biotech and I'm pursuing a PhD in Agriscience. Wishing to
+                    combine all my passions!</p>
+                <p class="home__subtitle">I'm always learning something!</p>
+                
+                <a href="https://www.linkedin.com/in/melisa-di-giacomo/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="home__icon"></a>
+                <a href="https://github.com/melisadigiacomo" target="_blank"><img src="images/github.png" alt="github" class="home__icon"></a>
+                <a href="https://twitter.com/melisadigiacomo" target="_blank"><img src="images/twitter.png" alt="twitter" class="home__icon"></a>
+            </div>
+
+            <!--Image-->
+            <figure class="home__picture">
+                <img src="images/mel-portfolio1.png" alt="melisa" class="home__image">
+            </figure>
+
+        </article>
+
+        <!--Wave-->
+        <div style="height: 120px; overflow: hidden;" class="home__wave">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-4.30,-2.48 C146.95,147.12 346.16,-86.12 500.00,49.85 L506.43,155.98 L-15.58,153.04 Z" style="stroke: none; fill: #38b6ff;">
+                </path>
+            </svg>
+        </div>
+
+    </section>
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

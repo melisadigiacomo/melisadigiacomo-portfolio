@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-touch-icon.png">
+    <link rel="icon" type="images/ico/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+    <link rel="icon" type="images/ico/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <link rel="manifest" href="images/ico/site.webmanifest">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav container nav__sticky">
+        <h2 class="nav__logo">Melisa Di Giacomo</h2>
+
+        <figure class="nav__menu" id="hamburger">
+            <i class="fas fa-bars" class="nav__icon"></i>
+        </figure>
+
+        <ul class="nav__list" id="nav-ul">
+            <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="projects.html" class="nav__link active">Projects</a></li>
+            <li class="nav__item"><a href="contact.html" class="nav__link contactbutton">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- About -->
+    <section class="projects__main container">
+        <div class="projects__text">
+            <h2>Projects</h2>
+            <p>Take a look at some of the projects I've built.</p>
+        </div>
+
+        <div class="projects__container">
+
+            <!--Data Analysis and Visualization-->
+            <div class="projects__section">
+                <h2>Data Analysis and Visualization</h2>
+            </div>
+
+            <div class="projects__box">
+                <h2>Plot Evolution</h2>
+                <p>R</p>
+                <p>Display, step by step, how to make a better data visualization using ggplot2 and ggpubr packages.</p>
+                <a href="https://github.com/melisadigiacomo/plotevolution" target="_blank">
+                    <img src="images/PlotEvol.gif" alt="data-viz" class="project__image">
+                </a>
+                <p class="projects__links">
+                    <a href="https://github.com/melisadigiacomo/plotevolution" target="_blank">
+                        <img src="images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <div class="projects__box">
+                <h2>Plotly</h2>
+                <p>Python - Plotly</p>
+                <p>Data analysis of gapminder dataset with Python. Data visualization using plotly.</p>
+                <a href="https://github.com/melisadigiacomo/dataviz-plotly" target="_blank">
+                    <img src="images/plotly.gif" alt="data-viz" class="project__image">
+                </a>
+                <p class="projects__links">
+                    <a href="https://github.com/melisadigiacomo/dataviz-plotly" target="_blank">
+                        <img src="images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <div class="projects__box">
+                <h2>Book and Sentiment Analysis</h2>
+                <p>Python</p>
+                <p>Text mining of a book. Functions to tokenize, manipulate text and build plots. Sentiment analysis.</p>
+                <a href="https://github.com/melisadigiacomo/bookanalysis" target="_blank">
+                    <img src="./images/bookanalysis.gif" alt="bookanalysis" class="project__image">
+                </a>
+
+                <p class="projects__links">
+                    <a href="https://github.com/melisadigiacomo/bookanalysis" target="_blank">
+                        <img src="./images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <div class="projects__box">
+                <h2>Wordcloud</h2>
+                <p>R</p>
+                <p>Scraped tweets from Twitter API. Text analytics. Wordcloud with the most frequent words of a hashtag.</p>
+                <a href="https://github.com/melisadigiacomo/tweets_wordcloud" target="_blank">
+                    <img src="./images/twitter-wordcloud.png" alt="wordcloud" class="project__image">
+                </a>
+
+                <p class="projects__links">
+                    <a href="https://github.com/melisadigiacomo/tweets_wordcloud" target="_blank">
+                        <img src="./images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <!--Web Development-->
+            <div class="projects__section">
+                <h2>Web Development</h2>
+            </div>
+
+            <div class="projects__box">
+                <h2>Product Landing Page</h2>
+                <p>HTML - CSS - JavaScript</p>
+                <p>Product page for a brand: interactive, responsive and with the key links to be redirected.</p>
+                <a href="https://melisadigiacomo.github.io/product-landingpage/" target="_blank">
+                    <img src="images/product_landingpage.png" alt="product_landingpage" class="project__image">
+                </a>
+
+                <p class="projects__links">
+                    <a href="https://melisadigiacomo.github.io/product-landingpage/" target="_blank">
+                        <img src="images/browser.png" alt="github" class="projects__icon">
+                        <span>Site</span>
+                    </a>
+
+                    <a href="https://github.com/melisadigiacomo/product-landingpage" target="_blank">
+                        <img src="images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <div class="projects__box">
+                <h2>Weather App</h2>
+                <p>HTML - CSS - JavaScript</p>
+                <p>Weather App using OpenWeatherMap API and Unsplash Source for embedding photos from Unsplash.</p>
+                <a href="https://melisadigiacomo.github.io/weather-app/" target="_blank">
+                    <img src="images/weather-app.png" alt="weather-app" class="project__image">
+                </a>
+
+                <p class="projects__links">
+                    <a href="https://melisadigiacomo.github.io/weather-app/" target="_blank">
+                        <img src="images/browser.png" alt="github" class="projects__icon">
+                        <span>Site</span>
+                    </a>
+
+                    <a href="https://github.com/melisadigiacomo/weather-application" target="_blank">
+                        <img src="images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <div class="projects__box">
+                <h2>My Gallery Page</h2>
+                <p>HTML - CSS - Bootstrap</p>
+                <p>Gallery page developed with Bootstrap to show my artwork. Deployed using Netlify.</p>
+                <a href="https://melisagallery.netlify.app/" target="_blank">
+                    <img src="images/my-art-gallery.png" alt="gallery-page" class="project__image">
+                </a>
+
+                <p class="projects__links">
+                    <a href="https://melisagallery.netlify.app/" target="_blank">
+                        <img src="images/browser.png" alt="github" class="projects__icon">
+                        <span>Site</span>
+                    </a>
+
+                    <a href="https://github.com/melisadigiacomo/my-art-gallery" target="_blank">
+                        <img src="images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+            <div class="projects__box">
+                <h2>Links Page</h2>
+                <p>HTML - CSS</p>
+                <p>Create two links pages: (A) Linktree™ clone and (B) icon links page.</p>
+                <a href="https://melisadigiacomo.github.io/melisa-links-page/" target="_blank">
+                    <img src="./images/LinksPage.gif" alt="links-page" class="project__image">
+                </a>
+                
+                <p class="projects__links">
+                    <a href="https://melisadigiacomo.github.io/melisa-links-page/" target="_blank">
+                        <img src="./images/browser.png" alt="github" class="projects__icon">
+                        <span>Site</span>
+                    </a>
+
+                    <a href="https://github.com/melisadigiacomo/webdev/tree/master/links-page" target="_blank">
+                        <img src="./images/github.png" alt="github" class="projects__icon">
+                        <span>Repo</span>
+                    </a>  
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Melisa Di Giacomo © |</p>
+        <a href="https://www.linkedin.com/in/melisa-di-giacomo/" target="_blank"><img src="images/linkedin.png"
+                alt="linkedin" class="footer__icon"></a>
+        <a href="https://github.com/melisadigiacomo" target="_blank"><img src="images/github.png" alt="github"
+                class="footer__icon"></a>
+        <a href="https://twitter.com/melisadigiacomo" target="_blank"><img src="images/twitter.png" alt="twitter"
+                class="footer__icon"></a>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
