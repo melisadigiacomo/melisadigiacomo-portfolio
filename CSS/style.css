@@ -610,6 +610,7 @@ body {
     .projects__box .project__image {
         max-width: 600px;
         width: 80vw;
+        height: 40vh;
     }
 
 
@@ -764,7 +765,7 @@ body {
     .projects__box .project__image {
         max-width: 480px;
         width: 80vw;
-        height: 25vh;
+        height: 35vh;
     }
            
     .projects__links .projects__icon {
@@ -941,8 +942,8 @@ body {
     
     .projects__box .project__image {
         max-width: 280px;
-        width: 80vw;
-        height: 15vh;
+        width: 70vw;
+        height: 25vh;
     }
            
     .projects__links .projects__icon {
