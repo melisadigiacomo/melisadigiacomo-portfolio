@@ -893,6 +893,10 @@ body {
         margin-left: 17px;
     }
 
+    .home__wave {
+        display: none;
+    }
+
 
     /*--- About ---*/
     .about__text {
