@@ -352,7 +352,7 @@ body {
     outline: none;
 }
 
-.contact__form .inputbox span {
+.contact__form .inputbox .field {
     position: absolute;
     left: 0;
     padding: 5px 0;

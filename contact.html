@@ -51,19 +51,19 @@
             <div class="contact__form">
                 <form action="https://formspree.io/f/xgerbwgy" method="POST" id="form" name="form">
                     <h2>Let's get in touch</h2>
-                    <div class="inputbox">                        
+                    <div class="inputbox">  
+                        <div class="field">Full name</div>                      
                         <input type="text" name="name" id='fullname' required> <!--required oninvalid="this.setCustomValidity('Enter full name')"-->
-                        <span>Full name</span>
                     </div>
 
-                    <div class="inputbox">                        
+                    <div class="inputbox">
+                        <div class="field">Email</div>                      
                         <input type="email" name="_replyto" name="email" id='email' required>
-                        <span>Email</span>
                     </div>
 
-                    <div class="inputbox">                        
+                    <div class="inputbox"> 
+                        <div class="field">Message...</div>                  
                         <textarea name="message" id='message' required></textarea>
-                        <span>Message...</span>
                     </div>
 
                     <!--Honeypot for bots-->
