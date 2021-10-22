@@ -1,6 +1,6 @@
 # My Web Portfolio
 
-[LINK HERE!](https://melisadigiacomo.codes/)
+### [LINK HERE!](https://melisadigiacomo.codes/)
 
 ## Resources Used
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
@@ -21,5 +21,20 @@ I developed 4 HTML pages for my web portfolio: home, about, projects and contact
 * Free hosting in GitHub Pages.
 * Free domain thanks to GitHub Education: [melisadigiacomo.codes](https://melisadigiacomo.codes/).  
 
+https://user-images.githubusercontent.com/87764919/138518970-15f80bcb-9fc7-4ad2-a00d-64d9b78b7a27.mp4
 
-https://user-images.githubusercontent.com/87764919/138304289-d55d6ffb-c859-4cee-9826-5ada314c0a3a.mp4
+## Home
+
+![melisadigiacomo-home](https://user-images.githubusercontent.com/87764919/138519550-9c4ab289-57e8-46dc-b462-fd339f04b714.png)  
+
+## About
+
+![melisadigiacomo-about](https://user-images.githubusercontent.com/87764919/138519582-71d19ab6-1405-40f0-b9f5-918f63d0c43e.png)  
+
+## Projects
+
+![melisadigiacomo-projects](https://user-images.githubusercontent.com/87764919/138519600-0a96a68c-e871-4557-9b73-2aba2e5dea11.png)  
+
+## Contact
+
+![melisadigiacomo-contact](https://user-images.githubusercontent.com/87764919/138519636-122f9132-645d-4a3e-a352-e00a982804a0.png)  
