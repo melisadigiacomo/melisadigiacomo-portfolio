@@ -263,7 +263,7 @@ body {
     transition: transform .3s;
 }
 
-.projects__links .projects__icon:hover {
+.projects__links .projects__linkspart:hover {
     -webkit-filter: invert(100%); /* Safari/Chrome */
     filter: invert(100%);
 }
@@ -271,11 +271,6 @@ body {
 .projects__links span {
     font-size: 1.5rem;
 }
-
-.projects__links span:hover {
-    color: white;
-}
-
 
 
 /*----- Contact Section -----*/
