@@ -48,160 +48,179 @@
 
         <div class="projects__container">
 
+            <!--Two sections buttons-->
+            <div class="projects__button">
+                <p onclick="ShowDataViz()">Data Viz</p>
+            </div>
+
+            <div class="projects__button">
+                <p onclick="ShowWebDev()">Web Dev</p>
+            </div>
+
+
             <!--Data Analysis and Visualization-->
-            <div class="projects__section">
-                <h2>Data Analysis and Visualization</h2>
+            <div class="projects__dataviz">
+
+                <div class="projects__section">
+                    <h2>Data Analysis and Visualization</h2>
+                </div>
+
+                <div class="projects__box">
+                    <h2>Plot Evolution</h2>
+                    <p>R</p>
+                    <p>Display, step by step, how to make a better data visualization using ggplot2 and ggpubr packages.</p>
+                    <a href="https://github.com/melisadigiacomo/plotevolution" target="_blank">
+                        <img src="images/PlotEvol.gif" alt="data-viz" class="project__image">
+                    </a>
+                    <p class="projects__links">
+                        <a href="https://github.com/melisadigiacomo/plotevolution" target="_blank" class="projects__linkspart">
+                            <img src="images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
+
+                <div class="projects__box">
+                    <h2>Plotly</h2>
+                    <p>Python - Plotly</p>
+                    <p>Data analysis of gapminder dataset with Python. Data visualization using plotly.</p>
+                    <a href="https://github.com/melisadigiacomo/dataviz-plotly" target="_blank">
+                        <img src="images/plotly.gif" alt="data-viz" class="project__image">
+                    </a>
+                    <p class="projects__links">
+                        <a href="https://github.com/melisadigiacomo/dataviz-plotly" target="_blank" class="projects__linkspart">
+                            <img src="images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
+
+                <div class="projects__box">
+                    <h2>Book and Sentiment Analysis</h2>
+                    <p>Python</p>
+                    <p>Text mining of a book. Functions to tokenize, manipulate text and build plots. Sentiment analysis.</p>
+                    <a href="https://github.com/melisadigiacomo/bookanalysis" target="_blank">
+                        <img src="./images/bookanalysis.gif" alt="bookanalysis" class="project__image">
+                    </a>
+
+                    <p class="projects__links">
+                        <a href="https://github.com/melisadigiacomo/bookanalysis" target="_blank" class="projects__linkspart">
+                            <img src="./images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
+
+                <div class="projects__box">
+                    <h2>Wordcloud</h2>
+                    <p>R</p>
+                    <p>Scraped tweets from Twitter API. Text analytics. Wordcloud with the most frequent words of a hashtag.</p>
+                    <a href="https://github.com/melisadigiacomo/tweets_wordcloud" target="_blank">
+                        <img src="./images/twitter-wordcloud.png" alt="wordcloud" class="project__image">
+                    </a>
+
+                    <p class="projects__links">
+                        <a href="https://github.com/melisadigiacomo/tweets_wordcloud" target="_blank" class="projects__linkspart">
+                            <img src="./images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
+
             </div>
 
-            <div class="projects__box">
-                <h2>Plot Evolution</h2>
-                <p>R</p>
-                <p>Display, step by step, how to make a better data visualization using ggplot2 and ggpubr packages.</p>
-                <a href="https://github.com/melisadigiacomo/plotevolution" target="_blank">
-                    <img src="images/PlotEvol.gif" alt="data-viz" class="project__image">
-                </a>
-                <p class="projects__links">
-                    <a href="https://github.com/melisadigiacomo/plotevolution" target="_blank" class="projects__linkspart">
-                        <img src="images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
-
-            <div class="projects__box">
-                <h2>Plotly</h2>
-                <p>Python - Plotly</p>
-                <p>Data analysis of gapminder dataset with Python. Data visualization using plotly.</p>
-                <a href="https://github.com/melisadigiacomo/dataviz-plotly" target="_blank">
-                    <img src="images/plotly.gif" alt="data-viz" class="project__image">
-                </a>
-                <p class="projects__links">
-                    <a href="https://github.com/melisadigiacomo/dataviz-plotly" target="_blank" class="projects__linkspart">
-                        <img src="images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
-
-            <div class="projects__box">
-                <h2>Book and Sentiment Analysis</h2>
-                <p>Python</p>
-                <p>Text mining of a book. Functions to tokenize, manipulate text and build plots. Sentiment analysis.</p>
-                <a href="https://github.com/melisadigiacomo/bookanalysis" target="_blank">
-                    <img src="./images/bookanalysis.gif" alt="bookanalysis" class="project__image">
-                </a>
-
-                <p class="projects__links">
-                    <a href="https://github.com/melisadigiacomo/bookanalysis" target="_blank" class="projects__linkspart">
-                        <img src="./images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
-
-            <div class="projects__box">
-                <h2>Wordcloud</h2>
-                <p>R</p>
-                <p>Scraped tweets from Twitter API. Text analytics. Wordcloud with the most frequent words of a hashtag.</p>
-                <a href="https://github.com/melisadigiacomo/tweets_wordcloud" target="_blank">
-                    <img src="./images/twitter-wordcloud.png" alt="wordcloud" class="project__image">
-                </a>
-
-                <p class="projects__links">
-                    <a href="https://github.com/melisadigiacomo/tweets_wordcloud" target="_blank" class="projects__linkspart">
-                        <img src="./images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
 
             <!--Web Development-->
-            <div class="projects__section">
-                <h2>Web Development</h2>
-            </div>
+            <div class="projects__webdev">
 
-            <div class="projects__box">
-                <h2>Product Landing Page</h2>
-                <p>HTML - CSS - JavaScript</p>
-                <p>Product page for a brand: interactive, responsive and with the key links to be redirected.</p>
-                <a href="https://melisadigiacomo.github.io/product-landingpage/" target="_blank">
-                    <img src="images/product_landingpage.png" alt="product_landingpage" class="project__image">
-                </a>
+                <div class="projects__section">
+                    <h2>Web Development</h2>
+                </div>
 
-                <p class="projects__links">
-                    <a href="https://melisadigiacomo.github.io/product-landingpage/" target="_blank" class="projects__linkspart">
-                        <img src="images/browser.png" alt="github" class="projects__icon">
-                        <span>Site</span>
+                <div class="projects__box">
+                    <h2>Product Landing Page</h2>
+                    <p>HTML - CSS - JavaScript</p>
+                    <p>Product page for a brand: interactive, responsive and with the key links to be redirected.</p>
+                    <a href="https://melisadigiacomo.github.io/product-landingpage/" target="_blank">
+                        <img src="images/product_landingpage.png" alt="product_landingpage" class="project__image">
                     </a>
 
-                    <a href="https://github.com/melisadigiacomo/product-landingpage" target="_blank" class="projects__linkspart">
-                        <img src="images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
+                    <p class="projects__links">
+                        <a href="https://melisadigiacomo.github.io/product-landingpage/" target="_blank" class="projects__linkspart">
+                            <img src="images/browser.png" alt="github" class="projects__icon">
+                            <span>Site</span>
+                        </a>
 
-            <div class="projects__box">
-                <h2>Weather App</h2>
-                <p>HTML - CSS - JavaScript</p>
-                <p>Weather App using OpenWeatherMap API and Unsplash Source for embedding photos from Unsplash.</p>
-                <a href="https://melisadigiacomo.github.io/weather-app/" target="_blank">
-                    <img src="images/weather-app.png" alt="weather-app" class="project__image">
-                </a>
+                        <a href="https://github.com/melisadigiacomo/product-landingpage" target="_blank" class="projects__linkspart">
+                            <img src="images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
 
-                <p class="projects__links">
-                    <a href="https://melisadigiacomo.github.io/weather-app/" target="_blank" class="projects__linkspart">
-                        <img src="images/browser.png" alt="github" class="projects__icon">
-                        <span>Site</span>
+                <div class="projects__box">
+                    <h2>Weather App</h2>
+                    <p>HTML - CSS - JavaScript</p>
+                    <p>Weather App using OpenWeatherMap API and Unsplash Source for embedding photos from Unsplash.</p>
+                    <a href="https://melisadigiacomo.github.io/weather-app/" target="_blank">
+                        <img src="images/weather-app.png" alt="weather-app" class="project__image">
                     </a>
 
-                    <a href="https://github.com/melisadigiacomo/weather-application" target="_blank" class="projects__linkspart">
-                        <img src="images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
+                    <p class="projects__links">
+                        <a href="https://melisadigiacomo.github.io/weather-app/" target="_blank" class="projects__linkspart">
+                            <img src="images/browser.png" alt="github" class="projects__icon">
+                            <span>Site</span>
+                        </a>
 
-            <div class="projects__box">
-                <h2>My Gallery Page</h2>
-                <p>HTML - CSS - Bootstrap</p>
-                <p>Gallery page developed with Bootstrap to show my artwork. Deployed using Netlify.</p>
-                <a href="https://melisagallery.netlify.app/" target="_blank">
-                    <img src="images/my-art-gallery.png" alt="gallery-page" class="project__image">
-                </a>
+                        <a href="https://github.com/melisadigiacomo/weather-application" target="_blank" class="projects__linkspart">
+                            <img src="images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
 
-                <p class="projects__links">
-                    <a href="https://melisagallery.netlify.app/" target="_blank" class="projects__linkspart">
-                        <img src="images/browser.png" alt="github" class="projects__icon">
-                        <span>Site</span>
+                <div class="projects__box">
+                    <h2>My Gallery Page</h2>
+                    <p>HTML - CSS - Bootstrap</p>
+                    <p>Gallery page developed with Bootstrap to show my artwork. Deployed using Netlify.</p>
+                    <a href="https://melisagallery.netlify.app/" target="_blank">
+                        <img src="images/my-art-gallery.png" alt="gallery-page" class="project__image">
                     </a>
 
-                    <a href="https://github.com/melisadigiacomo/my-art-gallery" target="_blank" class="projects__linkspart">
-                        <img src="images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
-            </div>
+                    <p class="projects__links">
+                        <a href="https://melisagallery.netlify.app/" target="_blank" class="projects__linkspart">
+                            <img src="images/browser.png" alt="github" class="projects__icon">
+                            <span>Site</span>
+                        </a>
 
-            <div class="projects__box">
-                <h2>Links Page</h2>
-                <p>HTML - CSS</p>
-                <p>Create two links pages: (A) Linktree™ clone and (B) icon links page.</p>
-                <a href="https://melisadigiacomo.github.io/melisa-links-page/" target="_blank">
-                    <img src="./images/LinksPage.gif" alt="links-page" class="project__image">
-                </a>
-                
-                <p class="projects__links">
-                    <a href="https://melisadigiacomo.github.io/melisa-links-page/" target="_blank" class="projects__linkspart">
-                        <img src="./images/browser.png" alt="github" class="projects__icon">
-                        <span>Site</span>
+                        <a href="https://github.com/melisadigiacomo/my-art-gallery" target="_blank" class="projects__linkspart">
+                            <img src="images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
+
+                <div class="projects__box">
+                    <h2>Links Page</h2>
+                    <p>HTML - CSS</p>
+                    <p>Create two links pages: (A) Linktree™ clone and (B) icon links page.</p>
+                    <a href="https://melisadigiacomo.github.io/melisa-links-page/" target="_blank">
+                        <img src="./images/LinksPage.gif" alt="links-page" class="project__image">
                     </a>
+                    
+                    <p class="projects__links">
+                        <a href="https://melisadigiacomo.github.io/melisa-links-page/" target="_blank" class="projects__linkspart">
+                            <img src="./images/browser.png" alt="github" class="projects__icon">
+                            <span>Site</span>
+                        </a>
 
-                    <a href="https://github.com/melisadigiacomo/webdev/tree/master/links-page" target="_blank" class="projects__linkspart">
-                        <img src="./images/github.png" alt="github" class="projects__icon">
-                        <span>Repo</span>
-                    </a>  
-                </p>
+                        <a href="https://github.com/melisadigiacomo/webdev/tree/master/links-page" target="_blank" class="projects__linkspart">
+                            <img src="./images/github.png" alt="github" class="projects__icon">
+                            <span>Repo</span>
+                        </a>  
+                    </p>
+                </div>
+
             </div>
 
         </div>

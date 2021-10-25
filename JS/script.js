@@ -7,6 +7,17 @@ hamburger.addEventListener("click", function () {
 });
 
 
+//Show Selected Projects Sections
+function ShowDataViz() {
+  document.querySelector(".projects__dataviz").style.display = "block";
+  document.querySelector(".projects__webdev").style.display = "none";
+}
+
+function ShowWebDev() {
+  document.querySelector(".projects__dataviz").style.display = "none";
+  document.querySelector(".projects__webdev").style.display = "block";
+}
+
 
 // Required field validation in Contact Form
 var fullname = document.getElementById('fullname');
