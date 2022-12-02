@@ -1,6 +1,6 @@
 # My Web Portfolio
 
-### [LINK HERE!](https://melisadigiacomo.codes/)
+### [LINK HERE!](https://melisadigiacomo.github.io/melisadigiacomo-portfolio/index.html)
 
 ## Resources Used
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
