@@ -20,7 +20,9 @@ I developed 4 HTML pages for my web portfolio: home, about, projects and contact
 * Code in [GitHub Repo](https://github.com/melisadigiacomo/melisadigiacomo-portfolio).
 * Free hosting in GitHub Pages.
 
-https://user-images.githubusercontent.com/87764919/138518970-15f80bcb-9fc7-4ad2-a00d-64d9b78b7a27.mp4
+
+![melisadigiacomo-portfolio](images/portfolio_melisadigiacomo.gif)  
+
 
 ## Home
 
