@@ -1,6 +1,6 @@
 # My Web Portfolio
 
-### [LINK HERE!](https://melisadigiacomo.codes/)
+### [LINK HERE!](https://melisadigiacomo.github.io/melisadigiacomo-portfolio/index.html)
 
 ## Resources Used
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
@@ -19,7 +19,6 @@ I developed 4 HTML pages for my web portfolio: home, about, projects and contact
 * Responsive design with 4 breakpoints (desktop, laptop, tablet and mobile).
 * Code in [GitHub Repo](https://github.com/melisadigiacomo/melisadigiacomo-portfolio).
 * Free hosting in GitHub Pages.
-* Free domain thanks to GitHub Education: [melisadigiacomo.codes](https://melisadigiacomo.codes/).  
 
 https://user-images.githubusercontent.com/87764919/138518970-15f80bcb-9fc7-4ad2-a00d-64d9b78b7a27.mp4
 
