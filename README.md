@@ -26,16 +26,16 @@ I developed 4 HTML pages for my web portfolio: home, about, projects and contact
 
 ## Home
 
-![melisadigiacomo-home](https://user-images.githubusercontent.com/87764919/138519550-9c4ab289-57e8-46dc-b462-fd339f04b714.png)  
+![melisadigiacomo-home](images/home.png)  
 
 ## About
 
-![melisadigiacomo-about](https://user-images.githubusercontent.com/87764919/138519582-71d19ab6-1405-40f0-b9f5-918f63d0c43e.png)  
+![melisadigiacomo-about](images/about.png)  
 
 ## Projects
 
-![melisadigiacomo-projects](https://user-images.githubusercontent.com/87764919/138519600-0a96a68c-e871-4557-9b73-2aba2e5dea11.png)  
+![melisadigiacomo-projects](images/projects.png)  
 
 ## Contact
 
-![melisadigiacomo-contact](https://user-images.githubusercontent.com/87764919/138519636-122f9132-645d-4a3e-a352-e00a982804a0.png)  
+![melisadigiacomo-contact](images/contact.png)  
