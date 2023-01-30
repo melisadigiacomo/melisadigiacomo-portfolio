@@ -179,6 +179,15 @@ body {
     margin: 10px 10px;
 }
 
+.about_icon_tableau {
+    width: 43px;
+}
+
+.about_icon_powerbi {
+    width: 44px;
+}
+
+
 /*----- Project Section -----*/
 
 .projects__text h2 {
